@@ -14,6 +14,5 @@ Finding needles in a haystack: determining key molecular descriptors associated 
 *Mol. Inf.* **2019**, *38*, 1800164.
 
 ### Owner
-Subho Majumdar
-
+Subho Majumdar  
 <subho@research.att.com>
