@@ -3,7 +3,7 @@ library(data.table)
 library(e1071)
 library(pROC)
 library(ranger)
-setwd("C:/Users/Subho/Dropbox/Blood-brain/")
+setwd("C:/Users/Subho/Dropbox/Blood-brain/") # change this to your home directory
 
 data1 = data.table(read.csv("Data/All descriptors  - BBB.csv"))
 data2 = fread("Data/BBB set 2.csv")
