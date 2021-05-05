@@ -58,10 +58,14 @@ data = merge(basak1, diudea1[Name %in% final.set],by="Name")
 data1 = data[,-c(1,2,3,5,458)]
 data1[, Class01 := 1]
 data1[Class=="n", Class01 := 0]
+data2 = data1[,-(1:5)]
+fwrite(data2, file="BBB_processed.csv")
+
+# class01
 
 # model
 test = sample(1:nrow(data1),50,replace=F)
-rfmod = ranger(as.factor(Class01)~.-Class, data=data1[-test,1:200],
+rfmod = ranger(as.factor(Class)~., data=data1[-test,1:200],
                importance="impurity",probability = TRUE, seed=083120181)
 preds = predict(rfmod, data1[test,], type="response")$predictions[,2]
 roc(data4$Class01[test],preds)
