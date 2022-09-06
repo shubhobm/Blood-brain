@@ -14,4 +14,4 @@ Finding needles in a haystack: determining key molecular descriptors associated 
 *Mol. Inf.* **2019**, *38*, 1800164.
 
 ### Owner
-(mailto:zoom.subha@gmail.com)[Subho Majumdar]
+[Subho Majumdar](mailto:zoom.subha@gmail.com)
