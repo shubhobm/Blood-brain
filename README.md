@@ -15,4 +15,4 @@ Finding needles in a haystack: determining key molecular descriptors associated 
 
 ### Owner
 Subho Majumdar  
-<zoom.subha at gmail dot com>
+<zoom dot subha at gmail dot com>
